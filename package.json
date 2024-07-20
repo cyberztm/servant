@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "name": "servant",
+  "version": "1.0.0",
+  "description": "Bot de moderação focado em gerenciar um servidor",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^9.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberzsk/servant.git"
+  },
+  "author": "CyberZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyberzsk/servant/issues"
+  },
+  "homepage": "https://github.com/cyberzsk/servant#readme"
+}
