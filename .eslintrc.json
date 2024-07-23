@@ -1,0 +1,25 @@
+{
+	"extends": [
+		"eslint:recommended",
+		"plugin:node/recommended"
+	],
+	"env": {
+		"node": true,
+		"es6": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2021,
+		"sourceType": "module"
+	},
+	"rules": {
+        "no-duplicate-imports": "error",
+        "camelcase": "warn",
+        "quotes": ["warn", "double"],
+        "semi": ["warn","always"],
+        "prefer-const":"error",
+        "no-var":"off"
+    },
+	"plugins": [
+		"node"
+	]
+}

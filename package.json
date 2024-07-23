@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "chalk": "^5.3.0",
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5"
   },
@@ -8,10 +9,13 @@
   "description": "Bot de moderação focado em gerenciar um servidor",
   "main": "index.js",
   "devDependencies": {
-    "eslint": "^9.4.0"
+    "@eslint/js": "^9.7.0",
+    "eslint": "^9.7.0",
+    "globals": "^15.8.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --env-file .env ./src/index.js"
   },
   "repository": {
     "type": "git",

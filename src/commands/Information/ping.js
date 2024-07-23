@@ -1,10 +1,11 @@
-const { SlashCommandBuilder } = require('discord.js');
+const { ApplicationCommandType } = require("discord.js");
 
 module.exports = {
-	data: new SlashCommandBuilder()
-		.setName('ping')
-		.setDescription('Replies with Pong!'),
-	async execute(interaction) {
-		await interaction.reply('Pong!');
-	},
+  name: "ping",
+  description: "Reply with pong",
+  type: ApplicationCommandType.ChatInput,
+  async execute(interaction) {
+    interaction.reply({ ephemeral: true, content: "Pong" });
+  }
 };
+
