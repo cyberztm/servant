@@ -13,8 +13,10 @@
 - Install dependencies with your favourite node package manager (e.g: `npm i`)
 - Configure .env file, example:
 ```sh
-token="TOKEN"
-CLIENT_ID=12093821039812309281
+ClientToken=""
+ClientId=""
+ServerId=""
+EmbedColor=""
 ```
 - Run the bot running the script `node .`
 
