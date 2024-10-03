@@ -2,7 +2,7 @@
        Servant - NodeJS
        By: CyberZ
  */
-const path = require('path');
+const path = require('node:path');
 const { Client, Collection, Events, GatewayIntentBits } = require('discord.js');
 const { loadCommands, initApplicationCommands, handleCommand } = require('./src/handlers/commandHandler');
 const setupEvents = require('./src/handlers/eventHandler');
